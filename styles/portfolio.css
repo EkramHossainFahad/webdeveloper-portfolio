@@ -23,6 +23,7 @@ body {
     font-size: 35px;
     font-weight: 700;
 }
+
 .section-discription {
     color: #757575;
     text-align: center;
@@ -113,22 +114,50 @@ nav a {
     background: #FFF8F3;
     margin: 130px 0px;
 }
-main{
+
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
     line-height: 5px;
 }
-.info-title{
+
+.info-title {
     color: #757575;
     font-weight: normal;
 }
-.info-discription{
+
+.info-discription {
     font-weight: bold;
+}
+
+/* Skills related styles */
+
+#what-i-do-description {
+    padding: 30px 150px;
+    color: #757575;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    color: #757575;
 }
